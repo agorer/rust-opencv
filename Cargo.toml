@@ -1,0 +1,10 @@
+[package]
+name = "rust-opencv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+image = "0.25.2"
+ndarray = "0.16.0"
+opencv = { version = "0.92.2", features = ["clang-runtime"] }
